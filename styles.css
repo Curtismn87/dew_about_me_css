@@ -28,12 +28,13 @@ header span {
   margin-bottom: 42px;
 }
 .contact {
-  margin-left: 35%;
-  margin-right: 35%;
-  margin-bottom: 50px;
   text-align: center;
   color: white;
+  display: inline-block;
+  margin: auto;
+  padding: inherit;
 }
+
 a.contact {
   color: rgba(0, 0, 0, 0.0);
   padding: 10px;
@@ -46,65 +47,38 @@ a.contact {
   margin: 100px;
   color: lightgrey;
   background-position: center;
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+
 }
 .contact > a:nth-child(2) {
   border: white;
   background-color: #57d9ee;
-  margin-left: 40%;
   color: lightgrey;
-  padding-left: 55px;
-  padding-right: 55px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+
 }
 .contact > a:nth-child(3) {
   background-color: #f143d7;
-  margin-left: 325px;
   color: lightgrey;
-  padding-left: 55px;
-  padding-right: 55px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+
 }
 .contact > a:nth-child(4) {
   background-color: black;
   color: lightgrey;
-  margin-left: 40%;
-  padding-left: 55px;
-  padding-right: 55px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+
 }
 .contact > a:nth-child(5) {
   background-color: brown;
   color: lightgrey;
-  margin-left: 325px;
-  padding-left: 55px;
-  padding-right: 55px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+
 }
 .contact > a:nth-child(6) {
   background-color: darkred;
   color: lightgrey;
-  margin-left: 40%;
-  padding-left: 55px;
-  padding-right: 55px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+
 }
 .contact > a:nth-child(7) {
   background-color: #7095bc;
-  margin-left: 325px;
   color: lightgrey;
-  padding-left: 55px;
-  padding-right: 55px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+
 }
 p{
   margin-top: 10px;
